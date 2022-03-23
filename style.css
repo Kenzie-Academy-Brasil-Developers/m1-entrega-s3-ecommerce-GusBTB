@@ -88,15 +88,16 @@ section{
     margin-top: 20px;
     border-radius: 20px;
     height: 400px;
+    width: 395px;
     border-style: groove;
     border-color: black;
+
 }
 .carrinho p{
     padding: 10px;
     display: flex;
     justify-content: center;
     border-color: black;
-    border-bottom-style: groove;
     font-size: 20px;
     font-weight: 700;
 }
@@ -104,9 +105,9 @@ section{
 .carrinho2{
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
-    align-items: center;
     font-size: 30px;
+
+
 }
 header img{
     padding: 10px;
@@ -183,4 +184,32 @@ header img{
 .filtros button:hover{
     box-shadow: 0 3px 5px 0 grey;
     transition: ease-out 0.3s;
+}
+.card-car{
+    display: flex;
+}
+.car-img img{
+    width: 140px;
+}
+.car-info{
+    display: flex;
+    flex-direction: column;
+}
+.car-info h3{
+    font-size: 25px;
+    
+}
+
+.car-price{
+    font-family: 'Inter';
+    font-size: 20px;
+    color: rgb(88, 34, 2);
+    font-weight: 700;
+}
+.car-delete{
+
+}
+.car-delete img {
+    padding-left: 185px;
+    width: 22px;
 }
